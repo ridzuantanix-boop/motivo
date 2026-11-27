@@ -6,11 +6,5 @@
 <path d="M254 328Q294 230 374 279Q467 324 394 402Q298 456 254 328Z" fill="#ae5b35"/>
 <path d="M269 315Q324 290 389 371M284 291Q338 277 412 346" fill="none" stroke="#e59e61" stroke-width="8"/>
 <ellipse cx="281" cy="392" rx="31" ry="14" fill="#54794b" transform="rotate(-25 281 392)"/><ellipse cx="396" cy="292" rx="35" ry="13" fill="#54794b" transform="rotate(25 396 292)"/>
-<path d="M82 240V530M102 240V303M122 240V303M82 303H122M574 241V533" stroke="#bda477" stroke-width="7"/><text x="654" y="235" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >MALAM</text><text x="654" y="323" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >DI MEJA</text><text x="654" y="411" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >KITA.</text><text x="659" y="555" fill="#c2cbb2" font-family="Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="0" >Ruang untuk rasa dan cerita.</text><text x="45" y="593" fill="#c2cbb2" font-family="Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="2" >KONSEP RESTORAN REKAAN</text>
-<path d="M44 40H1156" stroke="#f0dfbd" opacity=".4"/>
-<text x="44" y="68" fill="#f0dfbd" font-family="Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" >08 / PROMO KEDAI &amp; SERVIS</text>
-<text x="1156" y="68" fill="#f0dfbd" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" text-anchor="end">MOTIVO</text>
-<path d="M44 619H1156" stroke="#f0dfbd" opacity=".4"/>
-<text x="44" y="647" fill="#f0dfbd" font-family="Arial, sans-serif" font-size="12" font-weight="400" letter-spacing="1.4" >KONSEP VISUAL · BUKAN FRAME VIDEO SIAP</text>
-<text x="1156" y="647" fill="#f0dfbd" font-family="Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="0.6" text-anchor="end">by Pawarna</text>
+<path d="M82 240V530M102 240V303M122 240V303M82 303H122M574 241V533" stroke="#bda477" stroke-width="7"/><text x="654" y="235" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >MALAM</text><text x="654" y="323" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >DI MEJA</text><text x="654" y="411" fill="#f0dfbd" font-family="Georgia, serif" font-size="81" font-weight="400" letter-spacing="-4" >KITA.</text>
 </svg>

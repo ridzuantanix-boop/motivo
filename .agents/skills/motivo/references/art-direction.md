@@ -1,10 +1,12 @@
 # Art direction, not decoration
 
+Start with [clean-style.md](clean-style.md) for all categories. These directions change subject-specific type, palette and motion; they never add a mandatory header/footer, watermark or persistent UI overlay. Visual-only shots are the default. Type gets a finite cue only when it serves content.
+
 Choose a visual thesis that belongs to the subject. A story about metal can use precision, brushed surfaces, aligned rules, hard crops, and mechanical timing; a personal essay can use scanned textures, marginal notes, pauses, and restrained dissolves. Do not apply the same look to both.
 
 Three shipped explorations:
 
-- **Pressroom:** bone paper, ink, vermilion, monumental serif, asymmetric editorial columns. Reveal type through a horizontal mask; use sustained holds. Best for essays/history.
+- **Pressroom:** bone paper, ink, vermilion, monumental serif, asymmetric editorial composition. Use deliberate finite type moments and visual-only holds. Best for essays/history.
 - **Signal:** acid chartreuse, charcoal, oversized grotesk, directional strips, precise cuts. Animate geometry to explain a process instead of sprinkling floating shapes. Best for explainers/launches.
 - **Atelier:** oxblood, parchment, restrained serif, generous silence, an isolated object and measured details. Best for product stories using actual product assets.
 

@@ -4,6 +4,8 @@
 
 **Ini poster konsep berilustrasi, bukan frame video siap atau bukti hasil rakaman AI.** Ia menunjukkan mood, susunan visual dan tipografi; gerakan, audio dan realisme dinilai dalam produksi sebenar.
 
+Gaya clean untuk semua kategori: tiada label penjuru, watermark atau metadata di dalam contoh. Nama kategori dan nota konsep berada di luar frame. Tajuk besar dalam poster menunjukkan satu momen bertajuk; dalam video sebenar ia muncul mengikut cue, kemudian hilang. Shot tanpa teks ialah default.
+
 ![Semua 12 konsep MOTIVO](gallery/overview.jpg)
 
 | | |

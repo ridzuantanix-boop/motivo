@@ -43,14 +43,18 @@ Agent plans go under `projects/<slug>/`; rendered files go under `out/`. Both st
 
 ## 4. Preview, inspect, export
 
-Studio contains three silent design studies in two aspect ratios. To build and extract all study samples:
+Studio contains a clean still-based scene in landscape/portrait plus three silent design studies in both ratios. Titles have finite cues; no default corner labels or persistent branding. To build and extract all study samples:
 
 ```sh
 npm run build
 npm run inspect
 ```
 
-Inspection creates 18 PNGs, not a video. On first use Remotion may download a browser. Rendering requires a supported local environment and adequate disk/memory. For explicit export:
+Inspection creates 18 PNGs, not a video. On first use Remotion may download a browser. Rendering requires a supported local environment and adequate disk/memory.
+
+For clean-before/title-on/clean-after proof plus study/gallery samples, run `npm run inspect:clean` after build (36 PNGs). See [clean direction and migration](CLEAN_STYLE.md).
+
+For explicit video export:
 
 ```sh
 npx remotion render src/index.ts Motivo-pressroom-Landscape out/study.mp4

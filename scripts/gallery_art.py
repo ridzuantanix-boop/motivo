@@ -1,6 +1,7 @@
 """Original SVG art direction for the MOTIVO concept gallery. Stdlib, no API/assets."""
 import html
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,16 +18,13 @@ def lines(x, y, values, size=90, leading=92, **kwargs):
 
 def poster(slug, label, title, direction, bg, ink, art):
     n = len(POSTERS)+1
+    # Presentation metadata belongs outside the video-style artwork.
+    art = re.sub(r'<text\b[^>]*font-size="(\d+(?:\.\d+)?)"[^>]*>.*?</text>',
+                 lambda match: '' if float(match[1]) < 60 else match[0], art, flags=re.S)
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
 <title id="title">{html.escape(label)} — {html.escape(title)}</title><desc id="desc">Poster konsep grafik asli MOTIVO. {html.escape(direction)} Bukan frame video siap.</desc>
 <rect width="1200" height="675" fill="{bg}"/>
 {art}
-<path d="M44 40H1156" stroke="{ink}" opacity=".4"/>
-{text(44,68,f'{n:02d} / {label.upper()}',16,ink,weight=600,spacing=2)}
-{text(1156,68,'MOTIVO',16,ink,weight=700,spacing=3,extra='text-anchor="end"')}
-<path d="M44 619H1156" stroke="{ink}" opacity=".4"/>
-{text(44,647,'KONSEP VISUAL · BUKAN FRAME VIDEO SIAP',12,ink,weight=400,spacing=1.4)}
-{text(1156,647,'by Pawarna',15,ink,weight=500,spacing=.6,extra='text-anchor="end"')}
 </svg>'''
     POSTERS.append(dict(id=n, slug=slug, label=label, title=title, direction=direction, source=f'gallery/{n:02d}-{slug}.svg', preview=f'{n:02d}-{slug}.jpg', svg=svg))
 
@@ -54,7 +52,7 @@ def build():
 
     buildings = ''.join(f'<g transform="translate({720+i*97},{210+(i%2)*45})"><path d="M0 50L43 10L86 50V320H0Z" fill="#c8beaa" stroke="#665c50"/><path d="M-7 50H93M13 82H74M13 286H74" stroke="#665c50"/>'+''.join(f'<rect x="{18+j*35}" y="{90+k*54}" width="15" height="29" fill="#706759"/>' for j in range(2) for k in range(3))+'</g>' for i in range(4))
     poster('documentary','Dokumentari & sejarah','Sebelum kota ini berubah','Editorial arkib: kertas, dakwat, lukisan bangunan dan cap vermilion.', '#e5decd','#28271f',
-        '<path d="M690 100L1190 115L1170 590L674 570Z" fill="#d3c9b3"/>'+buildings+lines(44,218,['SEBELUM','KOTA INI','BERUBAH.'],size=80,leading=91,fill='#28271f',font='Georgia, serif',weight=400)+text(48,543,'Jejak tempat. Ingatan manusia.',21,'#575448',weight=400,spacing=0)+'<rect x="912" y="130" width="205" height="39" fill="none" stroke="#b6462a" transform="rotate(7 912 130)"/>'+text(930,165,'ARKIB REKAAN',17,'#b6462a',spacing=2,weight=600))
+        '<path d="M690 100L1190 115L1170 590L674 570Z" fill="#d3c9b3"/>'+buildings+lines(44,218,['SEBELUM','KOTA INI','BERUBAH.'],size=80,leading=91,fill='#28271f',font='Georgia, serif',weight=400))
 
     host = '''<rect x="745" y="123" width="378" height="459" rx="170" fill="#d9b995"/>
 <path d="M783 581V441Q785 401 845 389H1009Q1063 402 1075 450L1100 582Z" fill="#174943"/>
@@ -129,6 +127,7 @@ def write_docs(items):
         '# Pilih gaya melalui rupa', '',
         '12 poster konsep asli untuk membantu memilih arah visual. Klik poster untuk versi besar. Nombor sama dengan menu jenis video; palet, tipografi dan komposisi boleh disesuaikan dengan brief anda.', '',
         '**Ini poster konsep berilustrasi, bukan frame video siap atau bukti hasil rakaman AI.** Ia menunjukkan mood, susunan visual dan tipografi; gerakan, audio dan realisme dinilai dalam produksi sebenar.', '',
+        'Gaya clean untuk semua kategori: tiada label penjuru, watermark atau metadata di dalam contoh. Nama kategori dan nota konsep berada di luar frame. Tajuk besar dalam poster menunjukkan satu momen bertajuk; dalam video sebenar ia muncul mengikut cue, kemudian hilang. Shot tanpa teks ialah default.', '',
         '![Semua 12 konsep MOTIVO](gallery/overview.jpg)', '',
         '| | |', '|---|---|',
     ]

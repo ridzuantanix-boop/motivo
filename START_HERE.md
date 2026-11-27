@@ -4,6 +4,8 @@
 
 Agent patut membimbing anda satu langkah pada satu masa: pilih video, bahan visual dan suara. Anda tak perlu hafal arahan terminal, nama model atau format API.
 
+**Semua jenis guna gaya clean:** visual jadi fokus; tiada label kecil di penjuru, watermark atau overlay melekat secara automatik. Teks muncul hanya bila membantu cerita, dengan saiz jelas dan masa masuk/keluar. Sarikata, lirik atau label diagram yang diperlukan tetap boleh digunakan. [Lihat panduan clean](docs/CLEAN_STYLE.md).
+
 Agent juga patut tunjuk senarai jenis video: **faceless, affiliate, drama pendek/sketsa, dokumentari, host review, tutorial, Top 5/perbandingan, promo, lagu/lirik, travel, podcast dan motion graphics**. Pilih nombor atau terus bagi idea. [Lihat katalog dan bahan yang diperlukan](docs/VIDEO_TYPES.md).
 
 ## Pilih melalui rupa

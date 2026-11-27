@@ -4,7 +4,7 @@
   <a href="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml"><img alt="CI validation" src="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml/badge.svg"/></a>
   <a href="LICENSE"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-d5fb37?style=flat-square&amp;labelColor=171b18"/></a>
   <img alt="Node 22+" src="https://img.shields.io/badge/node-22%2B-d5fb37?style=flat-square&amp;labelColor=171b18"/>
-  <img alt="Release 0.3.0" src="https://img.shields.io/badge/starter-v0.3.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
+  <img alt="Release 0.4.0" src="https://img.shields.io/badge/starter-v0.4.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
 </p>
 
 <p align="center"><a href="START_HERE.md">New? Start here</a> · <a href="docs/STYLE_GALLERY.md">Visual gallery</a> · <a href="#local-setup">Quick start</a> · <a href="docs/PROVIDERS.md">Keys &amp; voices</a> · <a href="docs/README.ms.md">Bahasa Melayu</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
@@ -15,7 +15,7 @@ Give your coding agent a brief. Build faceless stories, product videos, and deli
 
 **Agent-first · Local rendering · Open source · Optional Nexabot**
 
-![Pressroom, Signal and Atelier: original MOTIVO composition studies](docs/style-studies.jpg)
+**Visual first. Text when it matters.** All 12 video types use clean frames by default: no automatic corner labels, watermark, cards or progress bars. Needed titles are large, designed and timed to disappear. Captions/lyrics/diagram labels serve the actual content. [See the clean direction and migration guide](docs/CLEAN_STYLE.md).
 
 MOTIVO is a repository-based skill and production kit, not a dashboard. Your agent supplies reasoning and code execution. Supplied media and motion graphics need no media-generation API. Generating new AI footage or voices requires a separately configured provider and may cost money.
 
@@ -70,7 +70,7 @@ npm run studio
 
 On Windows PowerShell use `npm.cmd` and `npx.cmd`. Setup creates `.env` only when absent, checks tools, and never contacts Nexabot. Leave the API key empty for local work. Never commit credentials.
 
-Open a `Motivo-*` composition: **Pressroom**, **Signal**, or **Atelier**, independently laid out for portrait and landscape. These are silent, original typography/geometry studies, not finished customer videos. `StarterDemoVideo` remains a legacy reference.
+Open `StarterDemoVideo` or `CleanScene-Portrait` for the clean → title → clean still-based scene. `Motivo-*` contains **Pressroom**, **Signal**, and **Atelier**, independently laid out for portrait/landscape with finite text cues and visual-only beats. These silent design studies are not finished customer videos. The coastal image is an AI-generated illustration; its [source note](public/demo/ASSET.md) explains provenance.
 
 | Direction | Visual language | Starting use |
 |---|---|---|
@@ -132,6 +132,8 @@ Keys stay in local `.env` or process environment. The `connect` command takes hi
 | `npm run typecheck` | TypeScript validation |
 | `npm run build` | Browser bundle in `dist/`; no video or API calls |
 | `npm run inspect` | After build: 18 static frames across three styles and two ratios in `out/inspection/`; not a motion/audio review |
+| `npm run test:clean` | Local finite-title timing checks |
+| `npm run inspect:clean` | After build: 36 static frames, including before/title/after checks; no video export |
 | `npm run gallery` | After build: export the 12 static `Gallery-*` poster compositions to `docs/gallery/`; no video or API calls |
 | `npx remotion still src/index.ts Motivo-pressroom-Landscape out/frame.png --frame=60` | Inspection frame |
 | `npx remotion render src/index.ts Motivo-pressroom-Landscape out/study.mp4` | Explicit MP4 export |
@@ -145,7 +147,7 @@ AGENTS.md                          Project entry point
 .agents/skills/motivo/              Director workflow and review references
 .agents/skills/nexabot-video-studio/ Preserved starter provider guidance
 src/MotivoStudy.tsx                 Three direction studies
-src/components/                    Optional legacy starter components
+src/components/CleanTypography.tsx Timed titles and opt-in readable captions
 scripts/setup.mjs                  Non-destructive local check
 scripts/nexabot_client.py           Optional inherited provider client
 ```
@@ -158,4 +160,4 @@ Code is MIT licensed, **by Pawarna**. Dependencies retain their licenses; check 
 
 ## Release status
 
-**v0.3.0 adds a visual concept gallery to guided onboarding and drama direction.** Static poster previews, provider offline tests and six motion composition studies have been inspected/validated as recorded; universal agent installation, live provider generation and an end-to-end drama production have not. See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.
+**v0.4.0 makes clean visual-first direction the default across all types.** It replaces the old overlay system and refreshes demos/gallery. Existing compositions using legacy overlay exports need the [migration steps](docs/CLEAN_STYLE.md). See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Universal agent installation, live provider generation and end-to-end drama production remain unverified. Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-11-27
+
+- Clean visual-first direction for all 12 types: no default corner labels, watermark, persistent cards, progress or branded footer.
+- Replaced legacy overlay exports with required-duration `EditorialTitle` and opt-in `ReadableCaptions`; existing imports need migration.
+- New landscape/portrait still-based clean → title → clean demo using an AI-generated illustrative coastal image; stripped metadata and small supporting text from motion studies/gallery art.
+- Finite-text timing tests and Linux CI static inspection of 36 frames, including exact before/after checks. No video or paid provider media generation is part of validation.
+
 ## 0.3.0 — 2026-11-27
 
 - Twelve original SVG art-direction posters with checked-in JPEG previews and a numbered overview.

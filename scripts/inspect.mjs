@@ -9,7 +9,7 @@ try {
   await mkdir('out/inspection', {recursive:true});
   const compositions = await getCompositions(serveUrl, {puppeteerInstance:browser});
   for (const composition of compositions.filter(c=>c.id.startsWith('Motivo-'))) {
-    for (const frame of [60,160,280]) {
+    for (const frame of [12,60,90]) {
       const output = `out/inspection/${composition.id}-${frame}.png`;
       await renderStill({serveUrl, composition, frame, output, imageFormat:'png', puppeteerInstance:browser, scale:0.5});
       console.log(output);

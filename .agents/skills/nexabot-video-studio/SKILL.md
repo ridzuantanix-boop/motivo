@@ -5,6 +5,8 @@ description: Aliran kerja lengkap menghasilkan video 60 saat (1080p) berbahasa M
 
 # Nexabot + Remotion AI Video Studio (Bahasa Melayu)
 
+**Panduan visual semasa:** ikut `.agents/skills/motivo/references/clean-style.md` untuk semua jenis video. Nota model/endpoint di bawah ialah rujukan teknikal lama; ia tidak mengatasi gaya clean. Jangan tambah watermark, kad lokasi, label penjuru atau progress bar secara automatik.
+
 Panduan langkah demi langkah untuk menghasilkan video sinematik `1920×1080`, `30 fps`, `60 saat` terus daripada arahan pengguna.
 
 ## 0. Semakan Awal (Pre-flight)
@@ -70,7 +72,7 @@ Panduan langkah demi langkah untuk menghasilkan video sinematik `1920×1080`, `3
 
 ## 4. Komposisi Remotion & Pengesahan Akhir
 
-1. Bina komposisi baharu dalam `src/<Projek>Video.tsx` dan `src/<projek>Data.ts` dengan menggunakan komponen sedia ada dalam `src/components/MotionOverlays.tsx` (`TopChannelWatermark`, `IntroHookBadge`, `LocationLowerThird`, `InfoSideCard`, `FacelessCaptions`, `TimelineProgressBar`), lalu daftarkan dalam `src/Root.tsx`.
+1. Bina komposisi baharu dalam `src/<Projek>Video.tsx` dan `src/<projek>Data.ts`, kemudian daftar dalam `src/Root.tsx`. Visual penuh ialah default. Jika perlu tajuk, gunakan `EditorialTitle` daripada `src/components/CleanTypography.tsx` dengan masa mula/tamat yang jelas. Gunakan `ReadableCaptions` secara opt-in untuk sarikata yang diperlukan. Tiada label penjuru, watermark, kad atau progress bar automatik; periksa frame sebelum, semasa dan selepas cue.
 2. Semak TypeScript & render:
    ```powershell
    npx.cmd tsc --noEmit; if ($LASTEXITCODE -ne 0) { throw "TSC gagal" }

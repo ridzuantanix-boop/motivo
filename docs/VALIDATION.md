@@ -1,5 +1,14 @@
 # Local validation and provider limitations
 
+## v0.4 clean direction
+
+- Four finite-text timing tests plus 16 existing offline provider tests pass locally. New clean compositions typecheck. The old overlay implementations/exports are removed; all 12 categories now follow the same clean-frame rules.
+- All 12 gallery SVG/JPEGs were regenerated without corner metadata, footer branding, tiny supporting text or border UI, and the updated contact sheet was visually inspected. Category labels and concept notices are outside the artwork.
+- The new scene uses an AI-generated illustrative still from built-in imagegen, stored in `public/demo/coast-clean.jpg` with its prompt/source note. No Nexabot/Google generation or video export was performed for this change.
+- Linux CI runs `inspect:clean`: 36 stills, exact clean-before/after equality and a different title-on frame in landscape/portrait. Review artifacts are available on the associated workflow run. This is static inspection, not playback/audio validation. See the live workflow link below for the current result.
+
+## Historical v0.1–v0.3 checks
+
 Validated on Windows, Node 22.18.0, Python 3.13.6, FFmpeg/FFprobe 9.0.1.
 
 - Skill frontmatter validator: passed.
@@ -13,7 +22,7 @@ Validated on Windows, Node 22.18.0, Python 3.13.6, FFmpeg/FFprobe 9.0.1.
 - Public-release pass: four offline credential-handling tests passed; staged source credential-pattern scan and relative Markdown link checks passed. `.env` and local media are excluded. Remotion package versions are aligned and pinned; CI targets Windows and Linux.
 - Clean-install pass: `npm ci --no-audit --no-fund`, followed by TypeScript, browser bundle and setup checks, completed successfully. The public repository is available at [ridzuantanix-boop/motivo](https://github.com/ridzuantanix-boop/motivo).
 
-The README preview is assembled from actual rendered study frames. Legacy starter material is preserved for reference; the new MOTIVO skill is the primary entry point.
+The original v0.1 preview was assembled from rendered study frames. That old preview and overlay system were replaced in v0.4; the older records below describe their historical validation, not the current clean-frame output.
 
 ## v0.2 onboarding
 

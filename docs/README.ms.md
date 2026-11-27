@@ -6,6 +6,8 @@
 
 MOTIVO ialah skill dan kit produksi dalam repo. Beri arahan melalui chat; agent mengaudit bahan, menulis skrip, menetapkan arah visual, membina komposisi Remotion dan menyemak hasil. Ia menggunakan kebolehan coding agent anda, bukan dashboard berasingan.
 
+**Default v0.4 ialah clean untuk semua 12 jenis:** visual penuh, tiada label penjuru atau overlay melekat. Tajuk bila perlu sahaja, besar dan ada masa tamat. Sarikata/lirik/diagram yang diperlukan kekal jelas dan mengikut timing. Demo lama telah diganti; [projek yang guna komponen overlay lama perlu dikemas kini](CLEAN_STYLE.md).
+
 ## Mula
 
 Tak perlu download sendiri jika agent boleh clone GitHub. Beri link https://github.com/ridzuantanix-boop/motivo dan minta agent setup dalam folder baharu, baca `AGENTS.md`, kemudian bimbing anda tanpa menjana media atau menggunakan kredit dahulu.

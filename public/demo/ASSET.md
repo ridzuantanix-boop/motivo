@@ -1,0 +1,7 @@
+# Clean scene still
+
+`coast-clean.jpg` is an AI-generated illustrative still for the clean → title → clean design demo, not filmed footage or evidence of a specific real location. Generated using built-in `image_gen` from the approved MOTIVO mockup reference, then re-encoded as JPEG for repository size. The original PNG is retained outside the repository. No Nexabot/Google key or provider credit was used.
+
+Prompt:
+
+Create the clean landscape background asset for the MOTIVO mockup approved by the user. Use the attached recent mockup board only as visual reference, specifically its FIRST photographic coastline frame. Deliver ONLY a single full-bleed 16:9 landscape cinematic photograph, preferably 1920x1080. Quiet tropical Malaysian coastline at dawn, wooded rocky headland on the right, open sea and atmospheric layered horizon on the left, natural warm dawn light, subtle believable haze, muted realistic color and texture, dark calm foreground water with sufficient naturally uncluttered negative space for a later title. Match the approved photographic mood. Absolutely NO typography, words, logos, captions, watermarks, borders, board background, UI, frame labels, people or boats. Do not include the second frame or any title from the reference. This will be used as an illustrative still background in a local video design demo, not presented as actual location documentary footage. Beautiful restrained photography, not an AI-tech visual or oversaturated fantasy.
