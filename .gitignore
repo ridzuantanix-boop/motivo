@@ -15,6 +15,7 @@ dist/
 __pycache__/
 *.pyc
 projects/
+.motivo/
 *.log
 .DS_Store
 Thumbs.db

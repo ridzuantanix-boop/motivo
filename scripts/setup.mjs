@@ -15,8 +15,16 @@ for (const [label, command, args, required] of checks) {
   }
 }
 if (!existsSync('.env')) {copyFileSync('.env.example', '.env'); console.log('Created .env. No credentials required for local compositions.');}
-const configured = /^NEXABOT_API_KEY=nxb_.+/m.test(readFileSync('.env','utf8')) && !/LETAK|gantikan|YOUR_KEY|xxxxxxxx/.test(readFileSync('.env','utf8'));
-console.log(`Nexabot: ${configured ? 'key present (not authenticated)' : 'optional; no usable key configured'}`);
+const envLines = readFileSync('.env','utf8').replace(/^\uFEFF/, '').split(/\r?\n/);
+for (const [label, name] of [['Nexabot', 'NEXABOT_API_KEY'], ['Google API narration', 'GEMINI_API_KEY']]) {
+  const line = envLines.find(x => x.trim().startsWith(`${name}=`));
+  const key = (process.env[name] || line?.slice(line.indexOf('=') + 1) || '').trim().replace(/^["']|["']$/g, '');
+  const configured = Boolean(key) && !/letak|gantikan|your_key|your_actual_key|xxxxxxxx|paste_here/i.test(key);
+  console.log(`${label}: ${configured ? 'key present (not authenticated)' : 'optional; not connected'}`);
+}
 if (!existsSync('node_modules/remotion')) {console.log('Install dependencies with npm install (npm.cmd on Windows).'); failed = true;}
 console.log(failed ? 'Resolve required prerequisites before production.' : 'Local graphics ready. Run npm run studio. Install missing media tools before media production. No API calls made.');
+console.log('\nBaru mula? Cakap kepada agent: "Buka MOTIVO dan bimbing aku buat video pertama. Aku baru mula."');
+console.log('Panduan: START_HERE.md | Provider dan suara: docs/PROVIDERS.md');
+console.log('Google AI Studio manual tidak memerlukan API key dalam MOTIVO. Jangan tampal key dalam chat.');
 process.exitCode = failed ? 1 : 0;

@@ -4,10 +4,10 @@
   <a href="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml"><img alt="CI validation" src="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml/badge.svg"/></a>
   <a href="LICENSE"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-d5fb37?style=flat-square&amp;labelColor=171b18"/></a>
   <img alt="Node 22+" src="https://img.shields.io/badge/node-22%2B-d5fb37?style=flat-square&amp;labelColor=171b18"/>
-  <img alt="Release 0.1.0" src="https://img.shields.io/badge/starter-v0.1.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
+  <img alt="Release 0.2.0" src="https://img.shields.io/badge/starter-v0.2.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
 </p>
 
-<p align="center"><a href="#local-setup">Quick start</a> · <a href="docs/GETTING_STARTED.md">Full guide</a> · <a href="docs/EXAMPLES.md">Prompt library</a> · <a href="docs/README.ms.md">Bahasa Melayu</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
+<p align="center"><a href="START_HERE.md">New? Start here</a> · <a href="#local-setup">Quick start</a> · <a href="docs/PROVIDERS.md">Keys &amp; voices</a> · <a href="docs/EXAMPLES.md">Prompt library</a> · <a href="docs/README.ms.md">Bahasa Melayu</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
 
 # Your agent has an idea. Give it a director's toolkit.
 
@@ -20,6 +20,19 @@ Give your coding agent a brief. Build faceless stories, product videos, and deli
 MOTIVO is a repository-based skill and production kit, not a dashboard. Your agent supplies reasoning and code execution. Supplied media and motion graphics need no media-generation API. Generating new AI footage or voices requires a separately configured provider and may cost money.
 
 ## Start with a conversation
+
+**No manual ZIP download needed** if your agent can clone GitHub repositories. Paste this into your coding agent:
+
+```text
+Set up MOTIVO from https://github.com/ridzuantanix-boop/motivo in a new
+project folder. Read AGENTS.md and the MOTIVO skill. Install dependencies,
+check setup, then guide me through my first video. I am a beginner.
+Do not generate media, spend API credits or publish anything yet.
+```
+
+Already installed? Say **“Buka MOTIVO dan bimbing aku buat video pertama. Aku baru mula.”** The agent should guide your video idea, visual sources and voice choice one step at a time. It should help configure only the provider you choose, then prepare a usable first brief. [Beginner guide](START_HERE.md).
+
+For an explicit project-local entry point:
 
 ```text
 Read AGENTS.md and use the MOTIVO skill. Check setup without making a video.
@@ -83,11 +96,26 @@ Keep direction, sources, shot timing, and review evidence in `projects/<slug>/`.
 
 The live-action guide covers continuity, anatomy, physics, product fidelity, speech, modest wardrobe for Malay productions, and temporal inspection. Repair or replace defective footage. Verify the inherited Nexabot endpoint/model guidance against current official documentation before paid generation.
 
+## Choose your voice route
+
+| Route | Key in MOTIVO | How it works |
+|---|---|---|
+| Your recording | None | Give the audio file to your agent |
+| Google AI Studio manual | None | Agent prepares the script; you generate/download audio in the speech playground |
+| Google API narration | Your Gemini API key | Optional Python REST client; dry run by default, explicit generation only |
+| Nexabot | Your Nexabot API key | Provider-specific assets/narration; retain original host audio for lip-sync |
+| No narration | None | Deliberately silent or music-led, as briefed |
+
+Keys stay in local `.env` or process environment. The `connect` command takes hidden input in your own interactive terminal; do not paste keys into chat or command arguments. Google account sign-in is different from API access. Provider quotas, model access and costs vary. [Step-by-step key and voice guide](docs/PROVIDERS.md).
+
 ## Commands
 
 | Command | Result |
 |---|---|
 | `npm run setup` | Local prerequisite check; creates optional `.env` |
+| `npm run providers` | Local redacted key-presence status; no network (Python required) |
+| `npm run connect -- nexabot` / `npm run connect -- google` | User-run hidden terminal key input into local `.env` (Python required) |
+| `npm run provider:check -- google` / `npm run provider:check -- nexabot` | Explicit read-only authentication check; no media generated |
 | `npm run studio` | Interactive composition preview |
 | `npm run typecheck` | TypeScript validation |
 | `npm run build` | Browser bundle in `dist/`; no video or API calls |
@@ -117,4 +145,4 @@ Code is MIT licensed, **by Pawarna**. Dependencies retain their licenses; check 
 
 ## Release status
 
-**v0.1.0 is a starter release.** Local checks and six composition studies have been validated; universal agent installation and provider generation have not. See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.
+**v0.2.0 is a starter release with guided onboarding.** Local checks, provider offline tests and six composition studies have been validated; universal agent installation and live Google/Nexabot generation have not. See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.

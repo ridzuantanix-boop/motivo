@@ -1,5 +1,7 @@
 # Your first MOTIVO session
 
+**Beginner?** Start with [one sentence to your agent](../START_HERE.md). No need to memorize the commands below. To install from a link, ask your coding agent to clone https://github.com/ridzuantanix-boop/motivo into a new folder, read `AGENTS.md`, install dependencies, check setup and guide your first video without generating media yet.
+
 ## 1. Get the project
 
 Download **Code → Download ZIP** from this repository, or clone it. Extract/open the resulting folder in your coding agent. The folder containing `package.json` is the project root.
@@ -23,6 +25,8 @@ Use MOTIVO for this project. Run local checks, but do not generate a video yet.
 ```
 
 Use this explicit instruction in Codex, Antigravity, Claude Code, or another agent with file editing and terminal access. This is a manual project-local workflow; automatic skill discovery and tool permissions vary. Only the local commands have been validated here, not every agent product.
+
+After setup, say **“Buka MOTIVO dan bimbing aku buat video pertama. Aku baru mula.”** The agent should offer relevant visual and voice choices rather than stop at “installed”. Read [keys and voice routes](PROVIDERS.md) for Nexabot, manual Google AI Studio and optional Google API narration. You can begin without any provider key.
 
 ## 3. Supply a brief and assets
 
@@ -54,7 +58,13 @@ npx remotion render src/index.ts Motivo-pressroom-Landscape out/study.mp4
 
 Customer compositions should use their own IDs. Check actual playback and listen to audio before calling a production finished. Still-frame checks cannot prove temporal realism or audio quality.
 
-## 5. Optional Nexabot
+## 5. Optional providers
+
+Read the [provider guide](PROVIDERS.md). For hidden local input use `npm run connect -- nexabot` or `npm run connect -- google` in your own interactive terminal (Python 3.10+). These commands store the selected key without printing it, preserve other `.env` settings, and make no API calls. Alternatively edit the appropriate line in `.env` locally. Do not paste a key into chat.
+
+Google AI Studio manual uses the [speech playground](https://aistudio.google.com/generate-speech), then a downloaded audio file; no Google key is needed in MOTIVO. Automatic Google narration is a separate API route with your own key, account quota and explicit generation authorization. `npm run providers` reports key presence only; `npm run provider:check -- <provider>` performs an explicit read-only check.
+
+### Nexabot
 
 Leave `.env` empty for motion graphics and supplied media. To use Nexabot, put your own key in `.env`:
 

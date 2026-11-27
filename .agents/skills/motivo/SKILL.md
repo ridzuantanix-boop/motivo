@@ -1,11 +1,13 @@
 ---
 name: motivo
-description: Direct, compose, inspect, and render faceless stories, product videos, explainers, and motion graphics in the MOTIVO Remotion repository, using local assets or optional Nexabot generation.
+description: Guide first-time MOTIVO users through setup, provider and voice choices, then direct, compose, inspect and render videos in this Remotion repository using supplied media or optional providers.
 ---
 
 # MOTIVO — by Pawarna
 
 Turn a brief into an intentional edit. A recipe supplies narrative scaffolding, not a compulsory layout. Default to Bahasa Melayu unless the user requests another language. Adapt length, aspect ratio, tone, and delivery to the actual brief.
+
+For a new user, setup request, or provider/voice question, read [onboarding.md](references/onboarding.md). Guide them through the relevant choices instead of leaving a command list. Read [providers.md](references/providers.md) only for a selected provider route. Google AI Studio manual needs no local API key; Google API narration is an optional separate connection with a real client. No provider is mandatory for supplied media.
 
 ## Work from evidence
 

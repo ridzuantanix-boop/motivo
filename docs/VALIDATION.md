@@ -1,4 +1,4 @@
-# v0.1 local validation
+# Local validation and provider limitations
 
 Validated on Windows, Node 22.18.0, Python 3.13.6, FFmpeg/FFprobe 9.0.1.
 
@@ -14,3 +14,10 @@ Validated on Windows, Node 22.18.0, Python 3.13.6, FFmpeg/FFprobe 9.0.1.
 - Clean-install pass: `npm ci --no-audit --no-fund`, followed by TypeScript, browser bundle and setup checks, completed successfully. The public repository is available at [ridzuantanix-boop/motivo](https://github.com/ridzuantanix-boop/motivo).
 
 The README preview is assembled from actual rendered study frames. Legacy starter material is preserved for reference; the new MOTIVO skill is the primary entry point.
+
+## v0.2 onboarding
+
+- Sixteen offline Python tests pass, covering the inherited client, local credential updates, placeholder/multiline rejection, environment precedence, hidden-input noninteractive refusal, redacted status, Google TTS no-network preflight, output protection, request credential placement and WAV/PCM handling.
+- Skill validation passes. Provider status and setup do not make network requests. The Google client uses the official single-speaker REST Interactions contract checked on 2026-11-27.
+- Google and Nexabot live generation have not been tested in this release. No real provider key, credit or generated customer audio is used by the tests. Browser-based AI Studio account availability and first-run behavior across all agents remain unverified.
+- Narration payloads and audio responses use mocked fixtures in tests; successful offline tests are not proof of provider entitlement or live output quality.

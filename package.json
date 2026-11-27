@@ -1,13 +1,16 @@
 {
   "name": "motivo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "build": "node scripts/bundle.mjs",
     "studio": "remotion studio src/index.ts",
     "typecheck": "tsc --noEmit",
     "setup": "node scripts/setup.mjs",
-    "inspect": "node scripts/inspect.mjs"
+    "inspect": "node scripts/inspect.mjs",
+    "providers": "python scripts/providers.py status",
+    "connect": "python scripts/providers.py connect",
+    "provider:check": "python scripts/providers.py check"
   },
   "dependencies": {
     "@remotion/cli": "4.0.547",
