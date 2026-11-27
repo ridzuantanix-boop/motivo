@@ -2,7 +2,7 @@
 
 Pilih nombor atau terus ceritakan idea. Agent membantu menulis, merancang, menyunting dan merender. Senarai ini ialah pilihan kegunaan, **bukan 12 generator atau templat siap satu klik**. Hasil bergantung pada bahan, alat dan provider yang tersedia.
 
-**Nak tengok rupa dahulu?** [Buka galeri 12 poster konsep](STYLE_GALLERY.md). Nombor poster sepadan dengan senarai di bawah. Setiap satu menunjukkan mood, tipografi dan susunan visual; semuanya ilustrasi konsep, bukan frame video siap.
+**Nak terus faham rupanya?** [Buka galeri 12 contoh adegan](STYLE_GALLERY.md). Drama menunjukkan watak berlakon, review menunjukkan host dengan produk, podcast menunjukkan perbualan studio. Nombor sepadan dengan senarai di bawah. Gambar dijana AI untuk menerangkan genre, bukan klip video siap.
 
 [![Galeri semua 12 jenis video](gallery/overview.jpg)](STYLE_GALLERY.md)
 

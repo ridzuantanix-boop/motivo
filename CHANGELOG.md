@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1 — 2026-11-27
+
+- Replaced abstract SVG posters with 12 generated example scenes that make each video genre recognizable: drama actors, product use, a presenter, podcast speakers and more.
+- Added plain-language explanations of what viewers see/hear in each format, with source prompts and AI provenance outside the images.
+- Retired the old SVG generator/export path; gallery metadata/docs now come from a JSON manifest. Clean styling and finite title behavior remain unchanged.
+
 ## 0.4.0 — 2026-11-27
 
 - Clean visual-first direction for all 12 types: no default corner labels, watermark, persistent cards, progress or branded footer.

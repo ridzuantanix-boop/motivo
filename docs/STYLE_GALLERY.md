@@ -1,36 +1,38 @@
-# Pilih gaya melalui rupa
+# Tengok contoh, terus faham jenis videonya
 
-12 poster konsep asli untuk membantu memilih arah visual. Klik poster untuk versi besar. Nombor sama dengan menu jenis video; palet, tipografi dan komposisi boleh disesuaikan dengan brief anda.
+Drama ditunjukkan dengan watak sedang berlakon. Review ada presenter dan produk. Podcast ada pembicara dan mikrofon. Pilih berdasarkan contoh adegan dan penerangan di bawah, bukan nama atau palet warna sahaja.
 
-**Ini poster konsep berilustrasi, bukan frame video siap atau bukti hasil rakaman AI.** Ia menunjukkan mood, susunan visual dan tipografi; gerakan, audio dan realisme dinilai dalam produksi sebenar.
+**Semua gambar di sini dijana AI sebagai contoh visual genre — bukan klip video siap atau hasil Nexabot yang telah diuji.** Watak, produk dan suasana adalah rekaan. Gambar statik tidak membuktikan gerakan, konsistensi watak atau lip-sync.
 
-Gaya clean untuk semua kategori: tiada label penjuru, watermark atau metadata di dalam contoh. Nama kategori dan nota konsep berada di luar frame. Tajuk besar dalam poster menunjukkan satu momen bertajuk; dalam video sebenar ia muncul mengikut cue, kemudian hilang. Shot tanpa teks ialah default.
+![12 jenis video dengan contoh adegan yang mudah dikenali](gallery/overview.jpg)
 
-![Semua 12 konsep MOTIVO](gallery/overview.jpg)
+## Pilih satu contoh
+
+Klik mana-mana gambar untuk lihat versi besar. Nama kategori dan penerangan berada di luar frame. Visual kekal clean; contoh lirik/typografi sahaja menunjukkan teks sebagai kandungan utama.
 
 | | |
 |---|---|
-| **01 · Faceless & fakta**<br>[![Faceless & fakta — Kota memerangkap haba](gallery/01-faceless.jpg)](gallery/01-faceless.jpg)<br>Ink gelap, cahaya asid, peta kontur dan hierarki dokumentari. | **02 · Affiliate produk**<br>[![Affiliate produk — Butiran yang buat beza](gallery/02-affiliate.jpg)](gallery/02-affiliate.jpg)<br>Object-led, biru elektrik, ruang kosong dan close-up produk rekaan. |
-| **03 · Drama pendek & sketsa**<br>[![Drama pendek & sketsa — Pesan terakhir](gallery/03-drama.jpg)](gallery/03-drama.jpg)<br>Ilustrasi sinematik: cahaya pintu, siluet, ruang sunyi dan tajuk serif. | **04 · Dokumentari & sejarah**<br>[![Dokumentari & sejarah — Sebelum kota ini berubah](gallery/04-documentary.jpg)](gallery/04-documentary.jpg)<br>Editorial arkib: kertas, dakwat, lukisan bangunan dan cap vermilion. |
-| **05 · Host review & presenter**<br>[![Host review & presenter — Cuba dulu, baru cerita](gallery/05-host.jpg)](gallery/05-host.jpg)<br>Presenter ilustrasi, terracotta, framing bersih dan suara terus ke kamera. | **06 · Pendidikan & tutorial**<br>[![Pendidikan & tutorial — Satu putaran, dua kelajuan](gallery/06-tutorial.jpg)](gallery/06-tutorial.jpg)<br>Diagram mekanikal, anotasi tepat dan gerak yang menerangkan konsep. |
-| **07 · Top 5 & perbandingan**<br>[![Top 5 & perbandingan — Dua pilihan, satu keputusan](gallery/07-comparison.jpg)](gallery/07-comparison.jpg)<br>Komposisi berpasangan, warna kontras dan perbandingan yang adil. | **08 · Promo kedai & servis**<br>[![Promo kedai & servis — Malam di meja kita](gallery/08-promo.jpg)](gallery/08-promo.jpg)<br>Hospitaliti editorial: hijau gelap, ilustrasi hidangan dan tipografi hangat. |
-| **09 · Lagu & video lirik**<br>[![Lagu & video lirik — Pulang perlahan](gallery/09-lyrics.jpg)](gallery/09-lyrics.jpg)<br>Malam ungu, horizon berlapis, lirik asli dan ruang seperti sleeve album. | **10 · Travel & photo essay**<br>[![Travel & photo essay — Sehari di tepi laut](gallery/10-travel.jpg)](gallery/10-travel.jpg)<br>Travel journal: bingkai cetakan, ilustrasi pesisir dan serif yang lapang. |
-| **11 · Podcast & petikan**<br>[![Podcast & petikan — Tak semua perlu cepat](gallery/11-podcast.jpg)](gallery/11-podcast.jpg)<br>Spoken-word editorial, mikrofon ilustrasi dan petikan asli yang dominan. | **12 · Motion graphics & brand film**<br>[![Motion graphics & brand film — Bentuk ada bahasa](gallery/12-motion.jpg)](gallery/12-motion.jpg)<br>Brand specimen: dakwat, tipografi grotesk dan geometri berirama. |
+| **01 · Faceless & fakta**<br>[![Faceless & fakta: Visual topik dan narasi, tanpa host.](gallery/01-faceless.jpg)](gallery/01-faceless.jpg)<br>**Rupanya:** Contoh saluran fakta: visual angkasa memenuhi skrin sementara narator menerangkan topik.<br>**Dalam video:** B-roll bertukar ikut isi; suara latar dan sarikata jika diminta. | **02 · Affiliate produk**<br>[![Affiliate produk: Produk digunakan, bukan sekadar dipamer.](gallery/02-affiliate.jpg)](gallery/02-affiliate.jpg)<br>**Rupanya:** Tangan menunjukkan cara lampu digunakan. Produk dan manfaat yang dibuktikan menjadi fokus.<br>**Dalam video:** Close-up, demonstrasi, ulasan ringkas dan CTA bertiming. |
+| **03 · Drama pendek & sketsa**<br>[![Drama pendek & sketsa: Watak berlakon, berdialog dan bereaksi.](gallery/03-drama.jpg)](gallery/03-drama.jpg)<br>**Rupanya:** Ayah dan anak berdepan satu konflik di meja makan. Ekspresi dan hubungan watak membina cerita.<br>**Dalam video:** Shot dialog, reaksi, jeda, bunyi suasana dan kesinambungan watak. | **04 · Dokumentari & sejarah**<br>[![Dokumentari & sejarah: Cerita fakta melalui manusia dan suasana.](gallery/04-documentary.jpg)](gallery/04-documentary.jpg)<br>**Rupanya:** Tukang kayu sedang bekerja; ini rupa B-roll dokumentari tentang manusia atau warisan.<br>**Dalam video:** Rakaman pemerhatian, temu bual/narasi dan fakta yang disahkan. |
+| **05 · Host review & presenter**<br>[![Host review & presenter: Presenter bercakap terus kepada kamera.](gallery/05-host.jpg)](gallery/05-host.jpg)<br>**Rupanya:** Host mengulas sambil menunjukkan produk di hadapannya, seperti video review creator.<br>**Dalam video:** Dialog host, demonstrasi/close-up produk dan potongan sokongan. | **06 · Pendidikan & tutorial**<br>[![Pendidikan & tutorial: Langkah kerja ditunjuk satu demi satu.](gallery/06-tutorial.jpg)](gallery/06-tutorial.jpg)<br>**Rupanya:** Kamera atas meja menunjukkan tindakan tangan dan hasil yang hendak dicapai.<br>**Dalam video:** Langkah berurutan, penerangan jelas dan label hanya jika membantu. |
+| **07 · Top 5 & perbandingan**<br>[![Top 5 & perbandingan: Dua pilihan dibanding ikut kriteria.](gallery/07-comparison.jpg)](gallery/07-comparison.jpg)<br>**Rupanya:** Dua produk dilihat bersama supaya perbezaannya boleh diterangkan dengan adil.<br>**Dalam video:** Potongan setiap produk, kriteria perbandingan dan rumusan berasas. | **08 · Promo kedai & servis**<br>[![Promo kedai & servis: Suasana kedai dan produk yang mengundang.](gallery/08-promo.jpg)](gallery/08-promo.jpg)<br>**Rupanya:** Hidangan, minuman dan suasana kafe seperti dalam video promosi makanan.<br>**Dalam video:** Detail makanan, suasana, tawaran sebenar jika dibekalkan dan CTA akhir. |
+| **09 · Lagu & video lirik**<br>[![Lagu & video lirik: Visual muzik dengan lirik bertiming.](gallery/09-lyrics.jpg)](gallery/09-lyrics.jpg)<br>**Rupanya:** Visual seperti klip muzik, dengan satu baris lirik besar yang mudah dibaca.<br>**Dalam video:** Muzik berlesen/milik sendiri, visual ikut frasa dan lirik yang bertukar. | **10 · Travel & photo essay**<br>[![Travel & photo essay: Pemandangan dan cerita perjalanan.](gallery/10-travel.jpg)](gallery/10-travel.jpg)<br>**Rupanya:** Pemandangan destinasi seperti dalam travel film; lokasi sebenar perlu guna aset/sumber yang sah.<br>**Dalam video:** Establishing shot, aktiviti/detail tempat dan narasi/bunyi suasana pilihan. |
+| **11 · Podcast & petikan**<br>[![Podcast & petikan: Pembicara, mikrofon dan perbualan.](gallery/11-podcast.jpg)](gallery/11-podcast.jpg)<br>**Rupanya:** Dua orang bersembang dalam studio podcast, dengan potongan antara pembicara.<br>**Dalam video:** Audio perbualan, reaksi, petikan dan sarikata jika diminta. | **12 · Motion graphics & brand film**<br>[![Motion graphics & brand film: Tipografi dan objek grafik menjadi visual.](gallery/12-motion.jpg)](gallery/12-motion.jpg)<br>**Rupanya:** Huruf dan bentuk tiga dimensi seperti satu momen dalam brand film atau motion design.<br>**Dalam video:** Gerak bersebab, perubahan bentuk/komposisi dan sound design terpilih. |
 
-## Cara pilih
+## Contoh arahan kepada agent
 
-> Aku pilih poster 3. Aku suka mood cahaya dan ruangnya, tetapi nak cerita komedi keluarga. Cadangkan skrip 45 saat dan sesuaikan gaya itu. Jangan jana aset berbayar dulu.
+> Aku pilih nombor 3. Nak drama keluarga macam adegan ayah dan anak itu, 45 saat. Cadangkan cerita, dialog dan shot reaksi dahulu. Jangan jana klip berbayar dulu.
 
-> Gabungkan tipografi poster 4 dengan warna poster 10 untuk video faceless tentang kampung aku.
+> Aku pilih nombor 5. Aku nak host review lampu meja aku. Guna gambar produk sebenar dan bimbing aku sediakan host serta dialog.
 
-Poster bukan sempadan kreativiti atau janji hasil serupa tanpa bahan yang sesuai. Agent boleh bina arah baharu. Untuk host/drama realistik, gunakan rakaman sendiri atau rancang penjanaan provider secara berasingan; figura dalam galeri ialah ilustrasi, bukan pelakon sebenar.
+> Aku pilih nombor 11. Aku ada rakaman podcast. Pilih petikan menarik dan susun versi pendek yang clean.
 
-## Sumber dan bina semula
+Jenis boleh bertindih: dokumentari boleh faceless, promo boleh menggunakan host, dan affiliate boleh mengandungi tutorial. Gambar ini menunjukkan satu pendekatan yang mudah difahami; subjek, mood dan gaya boleh diubah. Untuk drama/review realistik, perlu rakaman sendiri atau provider penjanaan dengan akses, rujukan dan bajet yang sesuai.
 
-Semua lukisan, objek, figura, lokasi, lirik dan jenama contoh dalam poster ialah rekaan grafik asli. Tiada foto stok atau panggilan API digunakan. Sumber SVG berada dalam `public/gallery/`, dijana oleh `scripts/gallery_art.py`, dan dimasukkan ke komposisi `Gallery-*` di Studio. Ini komposisi poster satu frame, bukan templat video penuh.
+## Sumber dan penyelenggaraan
 
-Untuk bina semula: `python scripts/gallery_art.py`, `npm run build`, kemudian `npm run gallery`. JPEG yang dirender berada dalam `docs/gallery/`. Helaian ringkasan boleh dibina semula dengan `python scripts/gallery_contact.py` (Pillow diperlukan untuk alat dokumentasi pilihan ini sahaja). Kod/grafik galeri menggunakan lesen MIT repo; fon sistem tidak dibundel.
+Contoh baharu dijana menggunakan built-in imagegen. [Nota aset](../public/gallery/ASSETS.md) dan [set prompt](../public/gallery/PROMPTS.json) merekodkan sumber. JPEG utama berada dalam `public/gallery/`; salinan paparan berada dalam `docs/gallery/`. Tiada rujukan individu sebenar, foto stok atau key provider dibundel.
 
-Alternatif memori rendah: `python scripts/gallery_raster.py` dengan PyMuPDF. Fon/rasterizer boleh memberi perbezaan kecil; semak hasil visual. PyMuPDF dan Pillow ialah alat dokumentasi pilihan dengan lesen masing-masing, bukan dependencies setup atau runtime video.
+`python scripts/gallery_docs.py` membina metadata Studio dan halaman ini daripada `public/gallery/gallery.json`; ia tidak menjana imej. `npm run build` kemudian `npm run gallery` mengeksport semula komposisi poster satu frame daripada JPEG sedia ada. `python scripts/gallery_contact.py` menyusun helaian ringkasan dengan Pillow (alat dokumentasi pilihan). Pipeline SVG abstrak lama telah diganti.
 
-[Katalog dan keperluan bahan](VIDEO_TYPES.md) · [Mula di sini](../START_HERE.md)
+[Katalog dan keperluan bahan](VIDEO_TYPES.md) · [Mula di sini](../START_HERE.md) · [Gaya clean](CLEAN_STYLE.md)

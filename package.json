@@ -1,6 +1,6 @@
 {
   "name": "motivo",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "scripts": {
     "build": "node scripts/bundle.mjs",
@@ -13,7 +13,8 @@
     "provider:check": "python scripts/providers.py check",
     "gallery": "node scripts/gallery.mjs",
     "test:clean": "node --test tests/clean-text.test.cjs",
-    "inspect:clean": "node scripts/inspect-clean.mjs"
+    "inspect:clean": "node scripts/inspect-clean.mjs",
+    "gallery:docs": "python scripts/gallery_docs.py"
   },
   "dependencies": {
     "@remotion/cli": "4.0.547",

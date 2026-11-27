@@ -1,5 +1,11 @@
 # Local validation and provider limitations
 
+## v0.4.1 recognizable gallery
+
+- Twelve new AI-generated example stills were inspected for category recognition, framing and obvious visual defects; the numbered overview was also inspected. Images were generated with built-in imagegen, not Nexabot/Google video APIs, and are not evidence of produced video motion or lip-sync.
+- `public/gallery/PROMPTS.json` records the generation prompts; the gallery manifest explains both picture content and expected editing/audio. Static Studio gallery compositions use the new JPEGs. The abstract SVG gallery/generator was retired.
+- The v0.4 clean image/text behavior is unchanged. CI continues to check compilation, tests and 36 static review frames. Hosted results remain available through the workflow links below.
+
 ## v0.4 clean direction
 
 - Four finite-text timing tests plus 16 existing offline provider tests pass locally. New clean compositions typecheck. The old overlay implementations/exports are removed; all 12 categories now follow the same clean-frame rules.

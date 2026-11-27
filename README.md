@@ -4,7 +4,7 @@
   <a href="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml"><img alt="CI validation" src="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml/badge.svg"/></a>
   <a href="LICENSE"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-d5fb37?style=flat-square&amp;labelColor=171b18"/></a>
   <img alt="Node 22+" src="https://img.shields.io/badge/node-22%2B-d5fb37?style=flat-square&amp;labelColor=171b18"/>
-  <img alt="Release 0.4.0" src="https://img.shields.io/badge/starter-v0.4.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
+  <img alt="Release 0.4.1" src="https://img.shields.io/badge/starter-v0.4.1-d5fb37?style=flat-square&amp;labelColor=171b18"/>
 </p>
 
 <p align="center"><a href="START_HERE.md">New? Start here</a> · <a href="docs/STYLE_GALLERY.md">Visual gallery</a> · <a href="#local-setup">Quick start</a> · <a href="docs/PROVIDERS.md">Keys &amp; voices</a> · <a href="docs/README.ms.md">Bahasa Melayu</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
@@ -86,11 +86,11 @@ Seven **narrative recipes**, separate from styles: faceless essay, ranked discov
 
 The first-run agent menu offers **12 use cases**: faceless facts, affiliate products, short drama/sketches, documentaries/history, host reviews, tutorials, lists/comparisons, business promos, songs/lyrics, travel/photo essays, podcast excerpts and motion graphics. Several use cases share a narrative recipe. [Explore the catalog, examples and asset requirements](docs/VIDEO_TYPES.md).
 
-**Choose by look, not just a name.** Each type has an original illustrated concept poster. Click the overview for individual posters and art-direction notes. These show visual intent, not finished video frames or proof of generated live-action realism.
+**See what each video type looks like.** Drama shows actors in a scene; a review shows a presenter with a product; a podcast shows a studio conversation. Each example explains what the video would show and sound like. These are AI-generated illustrative scenes, not produced video clips or verified Nexabot output.
 
-[![12 original MOTIVO concept posters](docs/gallery/overview.jpg)](docs/STYLE_GALLERY.md)
+[![12 recognizable examples of video genres](docs/gallery/overview.jpg)](docs/STYLE_GALLERY.md)
 
-Try: “Use poster 3's lighting and mood for my family drama” or “Combine poster 4's typography with poster 10's colors.” Your agent can adapt the direction instead of locking you to a preset.
+Try: “Make a family drama like example 3” or “Show my product being used like example 2, with a presenter like example 5.” Your agent adapts the subject, story and production route to your actual assets and brief.
 
 **Short drama is included as a guided workflow:** supplied live-action footage, illustrated/photo drama with narration/dialogue, or optional generated clips. The agent plans the script, character/voice continuity, coverage, sound and edit. Narration alone does not provide synchronized speaking faces; generated actors and lip-sync require provider support, budget and temporal inspection. No finished drama sample or automatic multi-speaker pipeline is bundled.
 
@@ -162,4 +162,4 @@ Code is MIT licensed, **by Pawarna**. Dependencies retain their licenses; check 
 
 ## Release status
 
-**v0.4.0 makes clean visual-first direction the default across all types.** It replaces the old overlay system and refreshes demos/gallery. Existing compositions using legacy overlay exports need the [migration steps](docs/CLEAN_STYLE.md). See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Universal agent installation, live provider generation and end-to-end drama production remain unverified. Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.
+**v0.4.1 replaces the abstract gallery with recognizable genre scenes and plain-language explanations.** The v0.4 clean visual-first default remains. Existing compositions using legacy overlay exports need the [migration steps](docs/CLEAN_STYLE.md). See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Universal agent installation, live provider generation and end-to-end drama production remain unverified. Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.

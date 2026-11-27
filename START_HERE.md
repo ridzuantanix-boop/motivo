@@ -10,9 +10,9 @@ Agent juga patut tunjuk senarai jenis video: **faceless, affiliate, drama pendek
 
 ## Pilih melalui rupa
 
-[![12 poster konsep MOTIVO](docs/gallery/overview.jpg)](docs/STYLE_GALLERY.md)
+[![12 contoh jenis video MOTIVO](docs/gallery/overview.jpg)](docs/STYLE_GALLERY.md)
 
-Klik [galeri poster](docs/STYLE_GALLERY.md) untuk lihat contoh besar dan arah visual setiap pilihan. Ini poster konsep berilustrasi, bukan frame video siap. Cakap kepada agent: **“Aku suka poster 3. Guna mood itu untuk cerita aku.”** Gaya boleh diubah atau digabungkan.
+Klik [galeri contoh adegan](docs/STYLE_GALLERY.md): drama ada watak berlakon, review ada presenter dan produk, podcast ada pembicara/mikrofon. Setiap contoh menerangkan rupa serta isi video. Gambar dijana AI untuk penerangan, bukan klip siap. Cakap: **“Aku nak drama keluarga macam nombor 3.”** Cerita dan gaya boleh diubah.
 
 | Nak buat apa? | Cakap kepada agent |
 |---|---|

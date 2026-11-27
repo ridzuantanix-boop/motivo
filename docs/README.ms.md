@@ -48,7 +48,7 @@ Resipi ialah panduan agent, bukan tujuh generator satu klik. Kajian visual ialah
 
 Onboarding kini menunjukkan [12 jenis video](VIDEO_TYPES.md), termasuk drama pendek. Drama boleh menggunakan rakaman sendiri, gambar dengan narasi/dialog atau klip AI pilihan. Suara TTS sahaja tidak menghasilkan lip-sync. Wajah, suara, pakaian dan kesinambungan babak perlu diperiksa; tiada jaminan watak AI sentiasa konsisten.
 
-**Pilih melalui rupa:** [galeri 12 poster konsep](STYLE_GALLERY.md) menunjukkan arah visual setiap jenis. Poster ialah ilustrasi konsep, bukan frame video siap. Contoh arahan: “Aku suka poster 3, tetapi nak cerita komedi keluarga. Sesuaikan mood dan tipografinya.”
+**Pilih melalui contoh adegan:** [galeri 12 jenis video](STYLE_GALLERY.md) menunjukkan rupa yang terus dikenali: watak drama, host review, demo produk dan studio podcast. Ada penerangan ringkas tentang apa yang dilihat/didengar dalam video. Gambar dijana AI, bukan klip siap. Contoh: “Aku nak drama komedi keluarga macam nombor 3.”
 
 ## API pilihan
 

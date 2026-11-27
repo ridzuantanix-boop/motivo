@@ -6,7 +6,7 @@ After install/setup or when a user is new, read `.agents/skills/motivo/reference
 
 Show the video-type menu from onboarding for new users or when asked what MOTIVO can make; use `docs/VIDEO_TYPES.md` for requirements. For an existing brief, skip unnecessary menu questions. Drama and sketches use `.agents/skills/motivo/references/drama.md`; do not confuse narration with on-camera lip-sync.
 
-Make choices visual: offer `docs/STYLE_GALLERY.md` with the checked-in `docs/gallery/overview.jpg` alongside the menu. The 12 posters are illustrated concepts, not finished video frames. Let users choose, combine or change a poster's direction; do not regenerate images merely to show the existing gallery.
+Make choices visual: offer `docs/STYLE_GALLERY.md` with `docs/gallery/overview.jpg` alongside the menu. The 12 AI-generated example scenes make genres recognizable: drama actors, a presenter, product use, podcast speakers, and so on. They are not finished video output. Explain what the video will show and sound like using the manifest descriptions, not only abstract palette/type language. Let users choose/adapt a scene direction; do not regenerate images merely to show the existing gallery.
 
 Use `npm run setup`, `npm run typecheck`, and `npm run studio`. On Windows use `npm.cmd` / `npx.cmd`. `npm run build` bundles the project; it does not render or spend API credits. Rendering is an explicit separate operation.
 

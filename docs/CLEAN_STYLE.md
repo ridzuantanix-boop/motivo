@@ -11,9 +11,9 @@ These are actual stills from the v0.4 composition rendered in CI, with presentat
 - `StarterDemoVideo`: a landscape still-based design demo. Clean image at the start, “Lihat perlahan.” from 3–6 seconds with a restrained fade, then clean image again.
 - `CleanScene-Portrait`: the same principle with a deliberate portrait crop and line breaks.
 - `Motivo-*`: Pressroom, Signal and Atelier motion studies with visual-only intervals and one finite title cue per beat; no small header/footer metadata.
-- `Gallery-*`: single-frame illustrated posters. Category names, branding and concept notices are outside the artwork in gallery documentation, not corner labels inside the sample.
+- `Gallery-*`: static AI-generated examples of recognizable scenes: actors in a drama, a host reviewing a product, a podcast studio and other types. Category names/descriptions and provenance stay outside the image. Lyrics/type-design examples show text as their primary content.
 
-The coastline is an AI-generated illustrative still, not filmed footage or proof of a real location. Source and generation prompt: [asset note](../public/demo/ASSET.md). The gallery remains illustrated concept art. None of these examples establishes motion realism or replaces a review of a finished film.
+The coastline is an AI-generated illustrative still, not filmed footage or proof of a real location. Source and generation prompt: [asset note](../public/demo/ASSET.md). The genre gallery also uses generated still images, with its own [source/prompt notes](../public/gallery/ASSETS.md). None establishes motion realism or replaces review of a finished film.
 
 Use gallery posters as art-direction references, not a looped video background with a headline baked into every frame. Rebuild the chosen visual and separate timed text cues for an actual edit.
 
