@@ -17,6 +17,8 @@ Give your coding agent a brief. Build faceless stories, product videos, and deli
 
 **Visual first. Text when it matters.** All 12 video types use clean frames by default: no automatic corner labels, watermark, cards or progress bars. Needed titles are large, designed and timed to disappear. Captions/lyrics/diagram labels serve the actual content. [See the clean direction and migration guide](docs/CLEAN_STYLE.md).
 
+[![Actual clean-frame demo renders](docs/clean-style-preview.jpg)](docs/CLEAN_STYLE.md)
+
 MOTIVO is a repository-based skill and production kit, not a dashboard. Your agent supplies reasoning and code execution. Supplied media and motion graphics need no media-generation API. Generating new AI footage or voices requires a separately configured provider and may cost money.
 
 ## Start with a conversation

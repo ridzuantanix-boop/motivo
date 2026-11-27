@@ -8,6 +8,8 @@ Do not place channel names, MOTIVO/by Pawarna branding, category labels, recipe 
 
 Compose the image before adding type. Let subject, crop, light, action, cuts, pauses and sound carry the film. Leave intentional visual-only beats. Do not make ordinary footage look like a dashboard, cover every quiet moment with information, or add text just to fill empty space. A typography-led sequence can make type the main visual; it still does not need corner metadata.
 
+Gallery posters are references for a titled moment, not ready-made moving footage. Do not loop a poster with its baked-in headline as an entire clean video. Rebuild/separate the visual and a finite text cue when adapting a gallery direction.
+
 ## Purposeful text
 
 For every text cue specify: exact words, why it is needed, in/out times, hierarchy, size and placement. If there is no reason, write `none`. Prefer one dominant text cluster at a time. Use negative space and real contrast, deliberate line breaks and generous margins. Titles should read at phone viewing size; in 1080-minimum-dimension output, the helper defaults to about 130px for titles and 54px for captions, with composition-specific adjustment after inspection. These are starting sizes, not guarantees or fixed universal metrics.

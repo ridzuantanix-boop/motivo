@@ -6,6 +6,7 @@
 - All 12 gallery SVG/JPEGs were regenerated without corner metadata, footer branding, tiny supporting text or border UI, and the updated contact sheet was visually inspected. Category labels and concept notices are outside the artwork.
 - The new scene uses an AI-generated illustrative still from built-in imagegen, stored in `public/demo/coast-clean.jpg` with its prompt/source note. No Nexabot/Google generation or video export was performed for this change.
 - Linux CI runs `inspect:clean`: 36 stills, exact clean-before/after equality and a different title-on frame in landscape/portrait. Review artifacts are available on the associated workflow run. This is static inspection, not playback/audio validation. See the live workflow link below for the current result.
+- The [first v0.4 run](https://github.com/ridzuantanix-boop/motivo/actions/runs/45956541400) passed on Windows and Linux. All 36 PNGs were downloaded from its review artifact and visually inspected via a contact sheet; landscape/portrait title frames were also inspected individually. The public clean preview is assembled from those actual CI renders, with labels outside the frame. Motion playback/audio remain unreviewed.
 
 ## Historical v0.1–v0.3 checks
 

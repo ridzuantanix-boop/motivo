@@ -2,6 +2,10 @@
 
 MOTIVO v0.4 uses the clean direction across all 12 video types. A scene can remain completely free of text. If a title helps, it is large, composed in the image's negative space, and scheduled to enter and leave. There is no automatic top-left label, top-right watermark, progress rail, information card or branded footer in exported video.
 
+![Actual clean demo renders: image only, then one timed title](clean-style-preview.jpg)
+
+These are actual stills from the v0.4 composition rendered in CI, with presentation labels outside the frames. The before/after pixels match; the title only appears in its scheduled interval. The background itself is an AI-generated illustrative still, not filmed location footage.
+
 ## What you will see in Studio
 
 - `StarterDemoVideo`: a landscape still-based design demo. Clean image at the start, “Lihat perlahan.” from 3–6 seconds with a restrained fade, then clean image again.
@@ -10,6 +14,8 @@ MOTIVO v0.4 uses the clean direction across all 12 video types. A scene can rema
 - `Gallery-*`: single-frame illustrated posters. Category names, branding and concept notices are outside the artwork in gallery documentation, not corner labels inside the sample.
 
 The coastline is an AI-generated illustrative still, not filmed footage or proof of a real location. Source and generation prompt: [asset note](../public/demo/ASSET.md). The gallery remains illustrated concept art. None of these examples establishes motion realism or replaces a review of a finished film.
+
+Use gallery posters as art-direction references, not a looped video background with a headline baked into every frame. Rebuild the chosen visual and separate timed text cues for an actual edit.
 
 ## Text that belongs to the content
 
