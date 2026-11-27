@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 — 2026-11-27
+
+- First-run numbered catalog of 12 video use cases, with asset/provider requirements.
+- Short drama/sketch recipe and direction guide: script, character bible, coverage, voice continuity and episodic notes.
+- Distinct routes for supplied footage, illustrated drama and optional generated clips; narration is not claimed as lip-sync. No finished drama or live generated sample tested in this update.
+
 ## 0.2.0 — 2026-11-27
 
 - Guided first-run agent conversation: video idea, visual sources, voice route, then a first brief.

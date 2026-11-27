@@ -21,3 +21,7 @@ The README preview is assembled from actual rendered study frames. Legacy starte
 - Skill validation passes. Provider status and setup do not make network requests. The Google client uses the official single-speaker REST Interactions contract checked on 2026-11-27.
 - Google and Nexabot live generation have not been tested in this release. No real provider key, credit or generated customer audio is used by the tests. Browser-based AI Studio account availability and first-run behavior across all agents remain unverified.
 - Narration payloads and audio responses use mocked fixtures in tests; successful offline tests are not proof of provider entitlement or live output quality.
+
+## v0.2.1 catalog and drama direction
+
+Documentation and skill update only: numbered use cases, a seventh narrative recipe and conditional drama guidance. Relative links and skill metadata are checked. No drama video, actor-consistency run or multi-speaker generation was produced or tested. Existing composition code and provider behavior are unchanged.

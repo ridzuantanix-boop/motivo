@@ -37,12 +37,14 @@ Jangan reka harga, pengalaman penggunaan atau testimoni. Jangan publish.
 
 ## Apa yang tersedia
 
-- Enam resipi cerita: faceless essay, senarai berpilih, butiran produk, perbandingan produk, visual explainer, lokasi dan budaya.
+- Tujuh resipi cerita: faceless essay, senarai berpilih, butiran produk, perbandingan produk, visual explainer, lokasi/budaya dan drama pendek/sketsa.
 - Tiga kajian arah visual: Pressroom, Signal dan Atelier, masing-masing dalam potret serta landskap.
 - Panduan anti-slop, motion, tipografi, pacing, audio dan audit realisme.
 - Setup, semakan TypeScript, bundle, pemeriksaan frame dan eksport MP4 tempatan.
 
-Resipi ialah panduan agent, bukan enam generator satu klik. Kajian visual ialah contoh tipografi/geometri tanpa audio. Agent menyesuaikan cerita dan kod mengikut brief; kualiti memerlukan pertimbangan serta semakan hasil sebenar.
+Resipi ialah panduan agent, bukan tujuh generator satu klik. Kajian visual ialah contoh tipografi/geometri tanpa audio. Agent menyesuaikan cerita dan kod mengikut brief; kualiti memerlukan pertimbangan serta semakan hasil sebenar.
+
+Onboarding kini menunjukkan [12 jenis video](VIDEO_TYPES.md), termasuk drama pendek. Drama boleh menggunakan rakaman sendiri, gambar dengan narasi/dialog atau klip AI pilihan. Suara TTS sahaja tidak menghasilkan lip-sync. Wajah, suara, pakaian dan kesinambungan babak perlu diperiksa; tiada jaminan watak AI sentiasa konsisten.
 
 ## API pilihan
 

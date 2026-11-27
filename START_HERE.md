@@ -4,10 +4,14 @@
 
 Agent patut membimbing anda satu langkah pada satu masa: pilih video, bahan visual dan suara. Anda tak perlu hafal arahan terminal, nama model atau format API.
 
+Agent juga patut tunjuk senarai jenis video: **faceless, affiliate, drama pendek/sketsa, dokumentari, host review, tutorial, Top 5/perbandingan, promo, lagu/lirik, travel, podcast dan motion graphics**. Pilih nombor atau terus bagi idea. [Lihat katalog dan bahan yang diperlukan](docs/VIDEO_TYPES.md).
+
 | Nak buat apa? | Cakap kepada agent |
 |---|---|
 | Faceless | “Aku nak video fakta 30 saat. Tolong cadangkan topik dan gaya.” |
 | Affiliate | “Aku ada gambar produk. Bantu tulis skrip dan susun video 9:16.” |
+| Drama pendek | “Bantu buat sketsa komedi dua watak, 45 saat. Cadangkan skrip dan laluan produksi dulu.” |
+| Senarai pilihan | “Tunjukkan semua jenis video yang MOTIVO boleh bantu buat, termasuk bahan yang diperlukan.” |
 | Sambung Nexabot | “Bimbing aku sambung Nexabot. Tunjuk tempat isi key secara tempatan.” |
 | Suara Google tanpa API | “Sediakan skrip dan bimbing aku guna Google AI Studio manual.” |
 | Suara Google automatik | “Bimbing aku sambung Google API untuk narasi. Jangan jana audio dulu.” |

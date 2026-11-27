@@ -8,7 +8,23 @@ After local checks, show a short capability summary: local visuals ready/missing
 
 Suggested opening:
 
-> MOTIVO dah dipasang. Aku boleh bantu dari idea sampai video. Nak mula dengan **faceless**, **affiliate produk**, atau **video lain**? Kalau tak pasti, cakap topik atau produk sahaja.
+> MOTIVO dah dipasang. Aku boleh bantu dari idea sampai video. Ini jenis yang boleh kita buat:
+> 1. Faceless & fakta
+> 2. Affiliate produk
+> 3. Drama pendek & sketsa
+> 4. Dokumentari & sejarah
+> 5. Host review & presenter
+> 6. Pendidikan & tutorial
+> 7. Top 5 & perbandingan
+> 8. Promo kedai & servis
+> 9. Lagu & video lirik
+> 10. Travel & photo essay
+> 11. Podcast & petikan
+> 12. Motion graphics & brand film
+>
+> Pilih nombor atau terus ceritakan idea. Kalau tak pasti, beritahu topik/produk sahaja.
+
+Read `docs/VIDEO_TYPES.md` from the project root for current use cases and asset requirements. Show the compact numbered menu on first-run onboarding and whenever asked for available video types, not only a faceless/affiliate/“other” choice. If the user already has a brief, go straight to the relevant route and do not force a menu. These are supported planning/editing use cases, not 12 ready-made templates or automatic generation guarantees. For drama/sketch requests, read [drama.md](drama.md) before planning shots or audio. Clarify illustrated narration versus speaking live-action characters.
 
 After the user chooses, offer only relevant choices:
 

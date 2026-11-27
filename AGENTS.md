@@ -4,6 +4,8 @@ This repository gives a coding agent a video production workflow. It is not a ho
 
 After install/setup or when a user is new, read `.agents/skills/motivo/references/onboarding.md` and guide them in chat. Do not stop at “installed”: explain visual/voice choices, offer the relevant provider steps, then help form their first brief. Onboarding itself never generates media. Keep API keys out of chat, logs and command arguments; use the local editor or the user's own hidden-input terminal. `START_HERE.md` is the beginner entry point.
 
+Show the video-type menu from onboarding for new users or when asked what MOTIVO can make; use `docs/VIDEO_TYPES.md` for requirements. For an existing brief, skip unnecessary menu questions. Drama and sketches use `.agents/skills/motivo/references/drama.md`; do not confuse narration with on-camera lip-sync.
+
 Use `npm run setup`, `npm run typecheck`, and `npm run studio`. On Windows use `npm.cmd` / `npx.cmd`. `npm run build` bundles the project; it does not render or spend API credits. Rendering is an explicit separate operation.
 
 No API is needed for local motion graphics or user-supplied media. Never imply that a coding-agent subscription supplies media-generation API access. Nexabot is optional; its bundled integration is inherited and must be verified against current provider documentation before generation. Never commit `.env` or user media. Never publish, upload, or incur generation costs without authorization for that action.

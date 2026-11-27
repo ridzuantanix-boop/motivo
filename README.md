@@ -4,7 +4,7 @@
   <a href="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml"><img alt="CI validation" src="https://github.com/ridzuantanix-boop/motivo/actions/workflows/check.yml/badge.svg"/></a>
   <a href="LICENSE"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-d5fb37?style=flat-square&amp;labelColor=171b18"/></a>
   <img alt="Node 22+" src="https://img.shields.io/badge/node-22%2B-d5fb37?style=flat-square&amp;labelColor=171b18"/>
-  <img alt="Release 0.2.0" src="https://img.shields.io/badge/starter-v0.2.0-d5fb37?style=flat-square&amp;labelColor=171b18"/>
+  <img alt="Release 0.2.1" src="https://img.shields.io/badge/starter-v0.2.1-d5fb37?style=flat-square&amp;labelColor=171b18"/>
 </p>
 
 <p align="center"><a href="START_HERE.md">New? Start here</a> · <a href="#local-setup">Quick start</a> · <a href="docs/PROVIDERS.md">Keys &amp; voices</a> · <a href="docs/EXAMPLES.md">Prompt library</a> · <a href="docs/README.ms.md">Bahasa Melayu</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
@@ -78,7 +78,13 @@ Open a `Motivo-*` composition: **Pressroom**, **Signal**, or **Atelier**, indepe
 | Signal | Acid green, bold type, directional geometry | Explainers and launches |
 | Atelier | Oxblood, parchment, restrained type, architectural curves | Product narratives |
 
-Six **narrative recipes**, separate from styles: faceless essay, ranked discovery, product detail, product comparison, visual explainer, place & culture. These are agent instructions, not six one-click video generators. The agent adapts code and real assets to each brief.
+Seven **narrative recipes**, separate from styles: faceless essay, ranked discovery, product detail, product comparison, visual explainer, place & culture, and short drama/sketch. These are agent instructions, not seven one-click video generators. The agent adapts code and real assets to each brief.
+
+## What can I make?
+
+The first-run agent menu offers **12 use cases**: faceless facts, affiliate products, short drama/sketches, documentaries/history, host reviews, tutorials, lists/comparisons, business promos, songs/lyrics, travel/photo essays, podcast excerpts and motion graphics. Several use cases share a narrative recipe. [Explore the catalog, examples and asset requirements](docs/VIDEO_TYPES.md).
+
+**Short drama is included as a guided workflow:** supplied live-action footage, illustrated/photo drama with narration/dialogue, or optional generated clips. The agent plans the script, character/voice continuity, coverage, sound and edit. Narration alone does not provide synchronized speaking faces; generated actors and lip-sync require provider support, budget and temporal inspection. No finished drama sample or automatic multi-speaker pipeline is bundled.
 
 ## Connect your agent
 
@@ -145,4 +151,4 @@ Code is MIT licensed, **by Pawarna**. Dependencies retain their licenses; check 
 
 ## Release status
 
-**v0.2.0 is a starter release with guided onboarding.** Local checks, provider offline tests and six composition studies have been validated; universal agent installation and live Google/Nexabot generation have not. See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.
+**v0.2.1 is a starter release with guided onboarding and drama direction.** Local checks, provider offline tests and six composition studies have been validated; universal agent installation, live provider generation and an end-to-end drama production have not. See the [validation record](docs/VALIDATION.md) and [changelog](CHANGELOG.md). Follow [SECURITY.md](SECURITY.md) when reporting sensitive issues.

@@ -2,6 +2,14 @@
 
 Start each session by asking the agent to read `AGENTS.md` and the MOTIVO skill. Replace paths with real supplied files. These prompts are examples, not generated customer work.
 
+Not sure what to make? Ask “Tunjukkan senarai jenis video MOTIVO” or open the [video-type catalog](VIDEO_TYPES.md).
+
+## Short drama / sketch
+
+> Buat drama pendek komedi 45 saat tentang ayah dan anak berebut remote. Dua watak, satu ruang tamu, Bahasa Melayu natural. Sediakan logline, skrip, nota watak dan shotlist dahulu. Bimbing aku pilih rakaman sendiri, drama bergambar atau klip Nexabot. Jangan jana aset berbayar dulu.
+
+> Buat drama bergambar misteri 30 saat daripada public/assets/misteri/. Guna narator Google AI Studio manual; sediakan teks dan arahan suara. Gunakan bunyi serta potongan yang membina ketegangan. Tiada dakwaan lip-sync; jangan reka rakaman pelakon yang tidak dibekalkan.
+
 ## Faceless essay
 
 > Explain why urban trees reduce heat. Audience: general Malaysian viewers. 45 seconds, 9:16, Bahasa Melayu. Research factual claims and keep source URLs in project notes. Use my photos and narration; no generated documentary evidence. Develop a paper-and-ink art direction with precise diagrams, varied shot lengths and calm captions.

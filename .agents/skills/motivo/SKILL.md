@@ -1,6 +1,6 @@
 ---
 name: motivo
-description: Guide first-time MOTIVO users through setup, provider and voice choices, then direct, compose, inspect and render videos in this Remotion repository using supplied media or optional providers.
+description: Guide MOTIVO users through video types, setup and voice choices, then direct, compose, inspect and render stories, short dramas, product videos and motion graphics in this repository.
 ---
 
 # MOTIVO — by Pawarna
@@ -8,6 +8,8 @@ description: Guide first-time MOTIVO users through setup, provider and voice cho
 Turn a brief into an intentional edit. A recipe supplies narrative scaffolding, not a compulsory layout. Default to Bahasa Melayu unless the user requests another language. Adapt length, aspect ratio, tone, and delivery to the actual brief.
 
 For a new user, setup request, or provider/voice question, read [onboarding.md](references/onboarding.md). Guide them through the relevant choices instead of leaving a command list. Read [providers.md](references/providers.md) only for a selected provider route. Google AI Studio manual needs no local API key; Google API narration is an optional separate connection with a real client. No provider is mandatory for supplied media.
+
+For available video types, use `docs/VIDEO_TYPES.md` at the project root. For drama, sketches or episodes, read [drama.md](references/drama.md) for character, shot and voice continuity. A narrated photo story and lip-synced live action are different production routes.
 
 ## Work from evidence
 
