@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible setup, composition, or export problem.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, private media, or unredacted logs.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Node version, agent, command and MOTIVO version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized error
+    validations:
+      required: true

@@ -1,0 +1,19 @@
+name: Recipe or direction idea
+description: Suggest a concrete editorial recipe or visual direction.
+body:
+  - type: textarea
+    id: brief
+    attributes:
+      label: Brief and audience
+      description: What story should this help tell?
+    validations:
+      required: true
+  - type: textarea
+    id: direction
+    attributes:
+      label: Visual direction and references
+      description: Explain how layout, typography, rhythm and motion differ. Link only shareable references.
+  - type: textarea
+    id: assets
+    attributes:
+      label: Required assets and practical constraints

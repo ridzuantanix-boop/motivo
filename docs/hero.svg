@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+<title id="title">MOTIVO by Pawarna</title><desc id="desc">Turn your agent into a director-led video studio.</desc>
+<rect width="1600" height="640" fill="#171b18"/>
+<path d="M70 70H1530M70 565H1530" stroke="#667064" stroke-width="1"/>
+<g fill="#d5fb37"><path d="M1280 137h190v190h-46V183h-144z"/><path d="M1470 375v120h-190v-46h144v-74z"/></g>
+<text x="70" y="116" fill="#d5fb37" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">IDEA → DIRECTION → MOTION</text>
+<text x="60" y="355" fill="#f0eee6" font-family="Arial,sans-serif" font-size="220" font-weight="900" letter-spacing="-13">MOTIVO</text>
+<text x="76" y="445" fill="#f0eee6" font-family="Arial,sans-serif" font-size="38">Turn your agent into a director-led video studio.</text>
+<text x="76" y="518" fill="#a3ada1" font-family="Arial,sans-serif" font-size="23">Faceless stories. Product videos. Deliberate motion.</text>
+<text x="76" y="605" fill="#f0eee6" font-family="Arial,sans-serif" font-size="22">by Pawarna</text>
+<text x="1530" y="605" text-anchor="end" fill="#a3ada1" font-family="Arial,sans-serif" font-size="19" letter-spacing="3">OPEN SOURCE / AGENT FIRST</text>
+</svg>
