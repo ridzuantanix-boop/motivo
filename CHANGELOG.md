@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-11-27
+
+- Twelve original SVG art-direction posters with checked-in JPEG previews and a numbered overview.
+- Visual gallery linked from README, beginner entry, video catalog and conversational onboarding.
+- Single-frame `Gallery-*` Studio compositions and optional documentation exporters; no video or paid assets generated.
+- Poster concepts are clearly distinguished from finished video or generated live-action samples.
+
 ## 0.2.1 — 2026-11-27
 
 - First-run numbered catalog of 12 video use cases, with asset/provider requirements.

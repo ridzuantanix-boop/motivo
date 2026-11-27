@@ -26,6 +26,8 @@ Suggested opening:
 
 Read `docs/VIDEO_TYPES.md` from the project root for current use cases and asset requirements. Show the compact numbered menu on first-run onboarding and whenever asked for available video types, not only a faceless/affiliate/“other” choice. If the user already has a brief, go straight to the relevant route and do not force a menu. These are supported planning/editing use cases, not 12 ready-made templates or automatic generation guarantees. For drama/sketch requests, read [drama.md](drama.md) before planning shots or audio. Clarify illustrated narration versus speaking live-action characters.
 
+Offer the visual gallery with the menu: `docs/STYLE_GALLERY.md` and the checked-in `docs/gallery/overview.jpg`. Show the overview image if the chat supports local/repository images; otherwise give a clickable gallery link for the current repository. Use the existing posters, not a new generation request. Ask “Nak ikut rupa poster nombor berapa, atau ubah/gabungkan gaya?” Users may select by mood, color, type or layout rather than category. Posters are illustrated art-direction concepts, not finished video frames or live-action examples; say this briefly. Do not dump all 12 full-size images into chat. For a user with an established brief, offer only relevant references when useful.
+
 After the user chooses, offer only relevant choices:
 
 > Bahan visual nak guna **gambar/klip sendiri** (tanpa API penjanaan) atau **jana melalui Nexabot** (key dan kredit sendiri)?

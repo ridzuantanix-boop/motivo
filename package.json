@@ -1,6 +1,6 @@
 {
   "name": "motivo",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "build": "node scripts/bundle.mjs",
@@ -10,7 +10,8 @@
     "inspect": "node scripts/inspect.mjs",
     "providers": "python scripts/providers.py status",
     "connect": "python scripts/providers.py connect",
-    "provider:check": "python scripts/providers.py check"
+    "provider:check": "python scripts/providers.py check",
+    "gallery": "node scripts/gallery.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.547",

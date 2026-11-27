@@ -2,6 +2,10 @@
 
 Pilih nombor atau terus ceritakan idea. Agent membantu menulis, merancang, menyunting dan merender. Senarai ini ialah pilihan kegunaan, **bukan 12 generator atau templat siap satu klik**. Hasil bergantung pada bahan, alat dan provider yang tersedia.
 
+**Nak tengok rupa dahulu?** [Buka galeri 12 poster konsep](STYLE_GALLERY.md). Nombor poster sepadan dengan senarai di bawah. Setiap satu menunjukkan mood, tipografi dan susunan visual; semuanya ilustrasi konsep, bukan frame video siap.
+
+[![Galeri semua 12 jenis video](gallery/overview.jpg)](STYLE_GALLERY.md)
+
 | No. | Jenis video | Contoh idea | Bahan/laluan |
 |---|---|---|---|
 | 1 | Faceless & fakta | “Kenapa bandar lebih panas?” | Gambar/klip + narasi; boleh tanpa API penjanaan |

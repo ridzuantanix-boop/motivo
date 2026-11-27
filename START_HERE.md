@@ -6,6 +6,12 @@ Agent patut membimbing anda satu langkah pada satu masa: pilih video, bahan visu
 
 Agent juga patut tunjuk senarai jenis video: **faceless, affiliate, drama pendek/sketsa, dokumentari, host review, tutorial, Top 5/perbandingan, promo, lagu/lirik, travel, podcast dan motion graphics**. Pilih nombor atau terus bagi idea. [Lihat katalog dan bahan yang diperlukan](docs/VIDEO_TYPES.md).
 
+## Pilih melalui rupa
+
+[![12 poster konsep MOTIVO](docs/gallery/overview.jpg)](docs/STYLE_GALLERY.md)
+
+Klik [galeri poster](docs/STYLE_GALLERY.md) untuk lihat contoh besar dan arah visual setiap pilihan. Ini poster konsep berilustrasi, bukan frame video siap. Cakap kepada agent: **“Aku suka poster 3. Guna mood itu untuk cerita aku.”** Gaya boleh diubah atau digabungkan.
+
 | Nak buat apa? | Cakap kepada agent |
 |---|---|
 | Faceless | “Aku nak video fakta 30 saat. Tolong cadangkan topik dan gaya.” |

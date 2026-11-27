@@ -25,3 +25,10 @@ The README preview is assembled from actual rendered study frames. Legacy starte
 ## v0.2.1 catalog and drama direction
 
 Documentation and skill update only: numbered use cases, a seventh narrative recipe and conditional drama guidance. Relative links and skill metadata are checked. No drama video, actor-consistency run or multi-speaker generation was produced or tested. Existing composition code and provider behavior are unchanged.
+
+## v0.3 visual gallery
+
+- Twelve original SVG posters parsed as valid XML and exported sequentially as JPEGs, plus a contact-sheet overview. Static visual inspection checks typography, borders, crop and image loading; these are concept illustrations, not finished video frames.
+- New single-frame Studio compositions typechecked locally. The local full browser bundle hit an out-of-memory error while the computer was under memory pressure; documentation JPEGs were exported with the optional low-memory PyMuPDF 1.26.7 path instead. Hosted CI validates the browser bundle separately; see live results above.
+- SVGs use solid vector fills for consistent low-memory export. Font/rasterizer differences can remain; no fonts, stock photos, real actor likenesses or third-party artwork are bundled with this gallery.
+- No video, audio, provider credit or API-generated imagery used for the gallery. Poster artwork and descriptions demonstrate direction, not temporal motion, lip-sync or photorealism.

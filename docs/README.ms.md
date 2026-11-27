@@ -46,6 +46,8 @@ Resipi ialah panduan agent, bukan tujuh generator satu klik. Kajian visual ialah
 
 Onboarding kini menunjukkan [12 jenis video](VIDEO_TYPES.md), termasuk drama pendek. Drama boleh menggunakan rakaman sendiri, gambar dengan narasi/dialog atau klip AI pilihan. Suara TTS sahaja tidak menghasilkan lip-sync. Wajah, suara, pakaian dan kesinambungan babak perlu diperiksa; tiada jaminan watak AI sentiasa konsisten.
 
+**Pilih melalui rupa:** [galeri 12 poster konsep](STYLE_GALLERY.md) menunjukkan arah visual setiap jenis. Poster ialah ilustrasi konsep, bukan frame video siap. Contoh arahan: “Aku suka poster 3, tetapi nak cerita komedi keluarga. Sesuaikan mood dan tipografinya.”
+
 ## API pilihan
 
 Tanpa API, guna gambar, klip, suara dan muzik anda sendiri atau bina motion graphics. Nexabot hanya diperlukan jika memilih penjanaan aset melaluinya. Isi key sendiri dalam `.env`, semak dokumentasi provider terkini dan tetapkan bajet. Jangan upload `.env` atau media peribadi.
